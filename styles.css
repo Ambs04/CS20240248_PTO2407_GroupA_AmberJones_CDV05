@@ -7,3 +7,17 @@
 body {
   background-color: var(--main-color);
 }
+
+#header-sect {
+  background-color: var(--breaker-color);
+  border: 2px solid var(--outline-color);
+}
+
+button {
+  background-color: var(--breaker-color);
+}
+
+#contact-sect {
+  background-color: var(--breaker-color);
+  border-top: 2px solid var(--outline-color);
+}
