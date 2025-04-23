@@ -1,0 +1,9 @@
+:root {
+  --main-color: #d6d5c9;
+  --breaker-color: #827081;
+  --outline-color: #23001e;
+}
+
+body {
+  background-color: var(--main-color);
+}
