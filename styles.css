@@ -6,15 +6,77 @@
 
 body {
   background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
 }
 
 #header-sect {
   background-color: var(--breaker-color);
   border: 2px solid var(--outline-color);
+  justify-content: start;
+  align-content: center;
+}
+
+#about-me {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+#projects-sect {
+  justify-content: center;
+  align-content: center;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+#project-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#project-2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#project-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#project-4 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#project-5 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#project-6 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#btn-div {
+  display: flex;
+  flex-direction: column;
 }
 
 button {
   background-color: var(--breaker-color);
+  justify-self: center;
+  align-self: center;
 }
 
 #contact-sect {
