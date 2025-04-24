@@ -189,6 +189,36 @@ button:hover {
   height: 30px;
 }
 
+#email-logo:hover,
+#telephone-logo:hover,
+#linkedIn-logo:hover {
+  cursor: pointer;
+
+  animation: jump 2s ease-in-out 0s infinite alternate both;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-35px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(-7px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 #spinner {
   border: 8px solid #f3f3f3;
   border-top: 8px solid var(--breaker-color);
@@ -196,8 +226,8 @@ button:hover {
   width: 60px;
   height: 60px;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 75%;
+  left: 51%;
   transform: translate(-50%, -50%);
   z-index: 1000;
   background-color: transparent;
@@ -226,13 +256,13 @@ button:hover {
     height: auto;
     row-gap: 20px;
     column-gap: 10px;
+    column-gap: 10px;
   }
   #project-1,
   #project-2,
   #project-3 {
     height: auto;
     width: 100%;
-    margin: 10px;
   }
 
   #project-3 {
@@ -246,6 +276,14 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+  #name {
+    display: none;
+  }
+
+  #heading-div {
+    margin-right: 20px;
+  }
+
   #projects {
     display: grid;
     grid-template-columns: 1fr;
@@ -274,6 +312,6 @@ button:hover {
   #project-3 {
     width: 90%;
     margin: 10px 0;
-    padding-left: 30px;
+    padding-left: 0px;
   }
 }
