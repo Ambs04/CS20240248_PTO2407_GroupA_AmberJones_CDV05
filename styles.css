@@ -60,12 +60,12 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-
+  grid-column-gap: 9px;
   justify-items: center;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 37rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 30rem;
   width: 100vw;
   border: 1px solid black;
 }
@@ -80,7 +80,7 @@ img {
   grid-row: 1 / 2;
   height: 13rem;
   width: 17rem;
-  margin-top: 50px;
+  margin-top: 25px;
   border: 1px solid black;
 }
 
@@ -89,7 +89,7 @@ img {
   grid-row: 1 / 2;
   height: 13rem;
   width: 17rem;
-  margin-top: 50px;
+  margin-top: 25px;
   border: 1px solid black;
 }
 
@@ -98,7 +98,7 @@ img {
   grid-row: 1 / 2;
   height: 13rem;
   width: 17rem;
-  margin-top: 50px;
+  margin-top: 25px;
   border: 1px solid black;
 }
 
@@ -114,7 +114,16 @@ button {
   background-color: var(--breaker-color);
   height: 50px;
   width: 90px;
-  border: 1.5px solid;
+  border: 1.5px solid var(--breaker-color);
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(74, 65, 136);
+  color: whitesmoke;
+  box-shadow: 5px 10px #888888;
+  cursor: pointer;
 }
 
 #contact-sect {
