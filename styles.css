@@ -18,6 +18,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   font-size: large;
+  user-select: none;
 }
 
 #header-sect {
@@ -45,11 +46,17 @@ body {
   border: none;
 }
 
+#name {
+  align-self: center;
+  margin-left: 30px;
+}
+
 #heading-div {
   justify-self: end;
   align-self: center;
   margin-left: auto;
-  margin-right: 100px;
+  margin-right: 80px;
+  font-weight: bolder;
 }
 
 #about-me {
@@ -168,7 +175,7 @@ button:hover {
 
 #email-logo {
   width: 30px;
-  height: 30px;
+  height: 35px;
 }
 
 #telephone-logo {
