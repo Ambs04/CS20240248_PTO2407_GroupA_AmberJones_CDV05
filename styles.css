@@ -83,6 +83,12 @@ body {
   width: 100vw;
 }
 
+#projects-sect > p {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 img {
   height: 13rem;
   width: 17rem;
@@ -183,7 +189,7 @@ button:hover {
   height: 30px;
 }
 
-/*RESPONSIVENESS*/
+/*MEDIA QUERIES*/
 
 @media (max-width: 768px) {
   #projects {
