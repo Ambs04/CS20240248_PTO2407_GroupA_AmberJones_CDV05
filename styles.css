@@ -201,10 +201,20 @@ button:hover {
   transform: translate(-50%, -50%);
   z-index: 1000;
   background-color: transparent;
+  animation: spin 1s linear infinite;
 }
 
 .hidden {
   display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 /*MEDIA QUERIES*/
