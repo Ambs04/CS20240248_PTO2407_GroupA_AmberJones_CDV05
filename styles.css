@@ -70,6 +70,11 @@ body {
   border: 1px solid black;
 }
 
+img {
+  height: 13rem;
+  width: 17rem;
+}
+
 #project-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -143,7 +148,17 @@ button {
   grid-row: 1 / 2;
 }
 
-img {
+#email-logo {
+  width: 30px;
+  height: 30px;
+}
+
+#telephone-logo {
+  width: 30px;
+  height: 30px;
+}
+
+#linkedIn-logo {
   width: 30px;
   height: 30px;
 }
