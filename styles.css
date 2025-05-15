@@ -98,6 +98,7 @@ body {
 img {
   height: 13rem;
   width: 17rem;
+  object-fit: cover;
 }
 
 #project-1 {
